@@ -1,0 +1,96 @@
+1.
+_______ operators are used to compare two values of the same type.
+    A.Arithmatic
+    B.Logical
+    C.Relational
+        ABS:Relational
+        
+2.
+What is the output of the following code :
+print(9//2)
+    A. 4.5
+    B. 4.0
+    C. 4
+    D. Error
+        ANS:4
+        
+3.
+A data value that does not change during the execution of a program is _____.
+    ANS:Constant
+    
+4.
+A single command is called a statement.
+    ANS:True
+    
+5.
+It is possible to add maths into Scratch, what is the Scratch Key Word used for it?
+    ANS:Operators
+    
+6.
+Which type of operator only returns the values true and false?
+    ANS:Comparison
+    
+7.
+Which data type contains only two values and is used to compare conditions?
+    ANS:Boolean
+   
+8.
+What is the function of the <= operator?
+    ANS:Less than or equal to
+    
+9.
+Besides the arithmetic operator, how many other types of operators.
+    ANS:3
+    
+10.
+what are the logical operators?
+    ANS: AND, OR
+
+11.
+A * B + ( C + D ) , what is computed first?
+    ANS:(C+D)
+   
+12.
+List out membership operators in python?
+    ANS:in, not in
+    
+13.
+List out identity operators in python?
+    ANS:is, is not
+    
+14.
+output for 
+print(7//2)
+    ANS:3
+    
+15.
+output for
+print(9>2 and 6<=6)
+    ANS:True
+    
+16.
+print(8!=8)
+    ANS:False
+
+17.
+print(2**3)
+    ANS:8
+    
+18.
+print((15%4))
+    ANS:3
+
+19.
+print("3"+"3")
+    ANS:33
+    
+20.
+print(not (0<1))
+    ANS:False
+    
+21.
+print(4+"2")
+    ANS:Type error
+
+
+

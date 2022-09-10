@@ -1,0 +1,138 @@
+1.
+What is pass in Python?
+    ANS:Pass means, no-operation Python statement, or in other words it is a place holder in compound statement, where there should be a blank left and nothing has to be written there.
+    
+2.
+What Does The Continue Do In Python? 
+    ANS:The continue is a jump statement in Python which moves the control to execute the next iteration in a loop leaving all the remaining instructions in the block unexecuted. The continue statement is applicable for both the “while” and “for” loops.
+    
+3.
+When Should You Use The “Break” In Python?
+    ANS:Python provides a break statement to exit from a loop. Whenever the break hits in the code, the control of the program immediately exits from the body of the loop. The break statement in a nested loop causes the control to exit from the inner iterative block.
+    
+4.
+What Is The Difference Between Pass And Continue In Python? 
+    ANS:The continue statement makes the loop to resume from the next iteration.
+         On the contrary, the pass statement instructs to do nothing, and the remainder of the code executes as usual.
+         
+5.
+What constitutes “True” in Python?
+    ANS:A true expression is any expression that does not evaluate to 0, the empty list [ ], tuple ( ), dictionary { } or the objects None or False.
+    
+6.
+What are the three main conditional statements in Python?
+    ANS:if, elif, and else
+    
+7.
+What are the comparison operators in Python?
+    ANS:< Less than, > Greater than, <= Less than or equal to, >= Greater than or equal to, = Equal to, != not equal, o alternative not equal. Note a single = is NOT a Python comparison operator, it is an assignment operator only.
+    
+8.
+Illustrate a basic if, elif, else structure.
+    ANS:if <condition>:
+            . . .
+        elif<another condition>:
+            . . .
+        else:
+            . . .
+            
+9.
+In Python 2.5+, the equivalent of a tertiary operator has been added to the language. Provide an example of its use.
+    ANS:myValue = ‘Positive’ if myNumber > 0 else ‘Negative or Zero’
+    
+10.
+What does elif mean?
+    ANS:It means else if. It is used after an if statement, to do another comparison.
+    
+11.
+What would the output be from the following code? a =4 If a = 5:
+Print “True”
+Else:
+Print “False”
+    ANS:This is a trick question. The a = 5 is not a comparison operator, but an assignment. It will yield “True”. The correct coding would be a == 5.
+    
+12.
+How are if, elif, and else blocks defined?
+    ANS:All blocks in Python are defined by indenting. All lines of a particular code block must have the same level of indenting.
+    
+13.
+Illustrate a switch-case equivalent using if-elif-else.
+    ANS:if item=valueA:
+            . . .
+        elif item == valueB:
+            . . .
+        elif item = =  valueC:
+            . . .
+        elifitem = valueN:
+            . . .
+        else:
+            … #default code
+            
+14.
+How is the Python switch statement used?
+    ANS:This is a trick question, there is no built-in switch statement in Python, which is unusual. A switch statement can be easily created using if-elif using lambda or with Python dictionaries.
+    
+15.
+Using a dictionary, create an equivalent to a switch case statement.
+            ANS: deffunc1( ):
+                . . .
+                deffunc2( ):
+                . . .
+                switch = {
+                ‘Aardvark’: fund1,
+                ‘Armadillo’: fund2,
+                 }
+                mySwi tchKey= “Armadillo ”
+                switch[mySwitchKey]( ) #callsJunc2( )
+                switch[‘Aardvark’]( ) #calls func1( )
+                
+16.
+Illustrate comparing two strings for equality in a case insensitive manner.
+    ANS:if stringl. lower ( ) = string2.lower ( ):
+#Note: .upper( ) is equally valid.
+
+17.
+Illustrate comparing two strings, printing if the first string is longer, equal, or shorter than the second string.
+    ANS:if len(stringl) > len(string2):
+            print “Stringl is longer than string2.”
+        elif len(stringl) < len(string2):
+            print “String1 is shorter than string2.”
+        else:
+            print “String1 is the same length as string2.”
+            
+18.
+When comparing two d^tes, what method is used?
+    ANS: Date.toordinal( ) Otherwise, Python would compare the dates by their object address.
+    
+19.
+In comparing dates and DateTime objects, what happens when one comparand is naive and the other aware?
+    ANS:A TypeError is raised.
+    
+20.
+What happens when you try to compare a DateTime object with other classes of objects?
+    ANS:A TypeError is raised.
+    
+21.
+When are dictionaries considered equal?
+    ANS:If and only if their sorted lists compare equally.
+    
+22.
+How is collection membership determined?
+    ANS: Using the in and not in operators.
+    
+23.
+Illustrate how collection membership determination would be written.
+    ANS:if x in collection:
+            print “It is in the collection”
+        else:
+            print “Not in the collection.”
+            
+24.
+How is object identity tested? Illustrate with an example.
+    ANS:Using the is and is not operators.
+        if x is objecttype:
+            print “x is the type you thought it was.
+        else:
+            print “x isn’t an objecttype.”
+    
+

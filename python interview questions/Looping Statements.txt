@@ -1,0 +1,108 @@
+1.
+What keyword is used for looping?
+    ANS:for
+    
+2.
+What function can generate a list of numbers?
+    ANS: range()
+
+3.
+Name the 2 keywords used for looping?
+    ANS: for and while
+    
+4.
+What module is used for generating random values?
+    ANS: random()
+    
+5.
+What keyword is used to skip back to the beginning of a loop?
+    ANS: continue
+    
+6.
+What keyword is used to end looping completely?
+    ANS: break
+    
+7.
+Use range to generate a list from 1 through 5?
+    ANS: range(1,6)
+    
+8.
+Write the code needed to generate a random number between 1 through 50 and assign it to rand_num?
+        ANS: random.randrange(1,51)
+        
+9.
+What numbers does the following Range generate: range(5,10)?
+    ANS: 5,6,7,8,9
+        Explanation: Range starts at 5 and goes up to (but not including) 10
+        
+10.
+What numbers does the following range generate range(3)?
+    ANS: 0,1,2
+    Explanation: Range will start at 0 and go up to (but not including) 3
+    
+11.
+What is printed out after the following code nums = range(1,5) print(nums)?
+    ANS:range(1,5)
+    Explanation: Printing range does not print out all the numbers in the range. We have to iterate over the range with a loop to print the numbers.
+    
+12.
+What numbers does the following range generate range(8,0,-2):
+    ANS: 8,6,4,2
+    Explanation: The 3rd argument(step) indicates that range should work backwards from 8, moving 2 numbers at a time.
+    
+13.
+ What does the following loop do?
+ i = 1
+while i < 5:
+i + i
+print(i)
+    ANS:It prints 1 forever
+    Explanation: Don't forget to add the + before the = sign when incrementing!
+    
+14.
+What does the following loop do?
+
+# print 1 to 5
+i = 0
+while i <= 5:
+i =+ 1
+print(i)
+
+    ANS:It prints 1 forever because there is a typo with the increment which should be += instead of =+.
+    
+15.
+What can we do to get out of the infinite loop below?
+#this code runs forever...
+x = 0
+while x != 11:
+x += 2
+print(x)
+    ANS:Change the condition to x ! = 10
+        Change the condition to x < 11
+        Add logic that says if x == 10: break
+        Press control + C while your program is running to kill it
+        
+16.
+ For loops are used to loop over:
+     ANS:Iterable objects
+     
+17.
+What is the tradeoff when using while loops for looping?
+    ANS: While loops are more flexible since you explicitly set the start and end conditions, but they require more setup than for loops
+    
+18.
+What does the break keyword do?
+    ANS:Exits the loop immediately
+    Explanation: break is the fastest way to get out of a loop -- it won't run any code after the break
+    
+19.
+What does the following code print?
+
+for x in range(5):
+print(x)
+    ANS:0 1 2 3 4
+        Explanation: Python ranges start at zero by default and count up to, but not including, the end number.
+        
+20.
+Which of the following type of loop(s) is/are not supported by Python?
+    ANS: do while

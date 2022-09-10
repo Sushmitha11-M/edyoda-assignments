@@ -1,0 +1,142 @@
+1. 
+What are Data Types?
+    A data type is a set of values and a set of operations defined on data. An implementation of a data type is an expression of data and   operations in terms of a specific programming language such as Java, C ++, or Python
+    
+2. 
+Data Types	Examples
+   Numbers	1234, 3.1415, 3+4j
+   Strings	‘spam’, “Bob’s”, b’a\x01c’,
+   Lists	[1, [2, ‘three’], 4.5]
+   Dictionaries	{‘food’: ‘spam’, ‘taste’: ‘yum’}
+   Tuples	(1, ‘spam’, 4, ‘U’)
+   Sets	set(‘abc’), {‘a’, ‘b’, ‘c’}
+   
+3.
+Name four of the main data types in Python
+    Numbers, strings, lists, dictionaries, tuples, files, and sets are generally considered the main types of data. Types, None, and Booleans are sometimes also classified this way. The integer, floating-point, complex, fraction and decimal are numerical data types and simple strings and Unicode strings in Python 2 and text strings and byte strings in Python 3 are the types of string data types.
+    
+4. 
+Why are these data types known as Python’s core data types?
+    They are known as the core data types because they are part of the Python language itself and are always available to create other objects, you usually need to call functions in imported modules.
+    Most of the data types have a specific syntax for generating objects: “spam”, for example, is an expression that creates a string and determines the set of operations that can be applied to it. For this reason, main types are built into Python syntax. Instead, you must call the built-in open function to create a file object.
+    
+5. 
+What does immutable mean and what three types of Python core data types are considered immutable?
+    An immutable data type is a type of object which cannot be modified after its creation. Numbers, strings, and tuples in Python fall into this category. Although you cannot modify an immutable object in place, you can always create a new one by running an expression.
+    
+6.
+What does sequence mean and which three types of data fall into this category?
+    A sequence data type is a collection of objects ordered by a specific position. In Python, Strings, lists, and tuples are the data types based on sequences. The Sequences share common sequence operations, such as indexing, concatenation, and slicing, but also have type-specific method calls.
+    
+7.
+What does mapping mean and what kind of data type is based on mapping?
+    The term mapping refers to an object that maps keys to associated values. The Python dictionary is the only type of mapping in the base typeset. Mappings do not maintain any left-to-right position order; they support access to stored data by key, as well as type-specific method calls.
+    
+8.
+What is polymorphism and why should you care?
+    Polymorphism means that the meaning of an operation (like a+) depends on the objects being operated. This turns out to be a key idea behind good use of Python, not coercing code to specific types makes that code automatically applied to many types.
+    
+9.
+Which of the following Python objects is immutable?
+    A.set
+    B.dict
+    C.list
+    D.string
+        ANS:str
+
+10.
+What would be the result of executing the following code?
+print(True*2)
+    A.TrueTrue
+    B.True True 
+    C.2
+    D.Syntax error
+        ANS:2
+        In python, True is boolean (notice the uppercase T) and True evaluates to 1 (False evaluates to 0) and hence 1 multiplied by 2 is 2
+       
+11.
+After executing the following line of code, what would be the data type of poll_data
+poll_data = 7,
+    A.int
+    B.list
+    C.tuple
+    D.dict
+        ANS:tuple
+        In python, tuple does not need brackets/parentheses if there are more than one elements in the assignment. one-element tuples need a comma to distinguish from a numeric data element
+        
+12.
+Which of the following Python's built-in functions returns the type of the object that was passed to it as a single argument?
+    A.type()
+    B.datatype()
+    C.objtype()
+    D.object()
+        ANS:type()
+        With one argument, type( ) returns the type of an object. The return value is a type object and generally the same object as returned by object.__class__.
+        
+13.
+Which of the following statements, when executed, raises the TypeError?
+    A.dict(range(9))
+    B.set(range(9))
+    C.list(range(9))
+    D.tuple(range(9))
+        ANS:dict(range(9))
+        In Python, dictionary needs key, value pairs
+        
+14.
+After executing the following line of code, what would be the data type of obj_data
+    obj_data = ( )
+    A.set
+    B.dict
+    C.tuple
+    D.list
+        ANS:tuple
+        In python, empty tuple by using ( ) or tuple constructor tuple( )
+        
+15.
+What is the type of the following: 1
+    A. float
+    B. int
+    C. str
+        Answer: int
+        Explanation: As there is no decimal, the number is of type int
+    
+16.
+WWhat does it mean that Python is a dynamically-typed language?
+    A. Variables in python can implicitly change to other types when comparing. For examples you can compare a string "2" and the number 2 using ==.
+    B. Python variables can be assigned to different types and changes types at will.
+    C. Python is a more efficient language than C++
+    D. All of the above
+        Answer: Python variables can be assigned to different types and changes types at will.
+        Explanation: Dynamic-typing just refers to the ability for variables to flexibly learn their types during assignment.
+    
+17.
+What values can the Boolean data type hold?
+    A. Integers, fractions, complex numbers
+    B. Unicode characters
+    C. True or False values
+    D. Any other data type
+        Answer: True or False values
+    
+18.
+Which of the following numbers is NOT a float?
+    A. 1.5
+    B. 2.333333
+    C. 0.0
+    D. 0
+        Answer: 0
+        Explanation:0 on its own is an int. 0.0 however, is a float.
+        
+19.
+What do we call it when we convert from one data type to another?
+    A. casting
+    B. converting
+    C. changing
+        Answer:casting
+        
+20.
+What data type can only have either a value of True or False?
+    A. A string
+    B. A boolean
+    C. An integer
+        Answer: A boolean
+    
